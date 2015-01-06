@@ -1,4 +1,4 @@
-# xlreg_o
+<h1 class="libTop">xlreg_o</h1>
 
 A OCaml client for the xlReg cluster registry.  **xlreg_o**
 makes it easy to create new small clusters some or all of whose members are

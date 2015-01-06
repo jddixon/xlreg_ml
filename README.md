@@ -1,4 +1,5 @@
-# xlreg_o
+xlreg_o
+#######
 
 A OCaml client for the xlReg cluster registry.  **xlreg_o**
 makes it easy to create new small clusters some or all of whose members are
@@ -167,3 +168,7 @@ there are no known serious bugs.
 **This client is itself pre-alpha:** some minimal code exists, but nothing
 beyond reading the registry credentials (`regCred.dat`) and going through
 the initial hello/reply session with the server, xlReg.
+
+## On-line Documentation
+More information on the **xlreg_o** project can be found 
+[here](https://jddixon.github.io/xlreg_o)
