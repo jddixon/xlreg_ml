@@ -1,9 +1,9 @@
-# xlreg_o
+# xlreg_ml
 
-A OCaml client for the xlReg cluster registry.  **xlreg_o**
+A OCaml client for the xlReg cluster registry.  **xlreg_ml**
 makes it easy to create new small clusters some or all of whose members are
 written in the programming language OCaml.  
-xlreg_o is expected to be used primarily for testing, where
+xlreg_ml is expected to be used primarily for testing, where
 the ability to create and launch new, unique, distinct clusters in seconds
 will be a major advantage.
 
@@ -101,7 +101,7 @@ Cluster members will communicate with one another and clients
 using protocols agreed-upon among themselves, but the xlReg registry
 has no knowledge of such protocols.
 
-**xlreg_o** is currently in development.  This is not
+**xlreg_ml** is currently in development.  This is not
 necessarily a description of running code; it is where we are going.
 
 xlReg is an [XLattice](http://jddixon.github.io/xlattice_go/) project.  More
@@ -157,7 +157,7 @@ your own server.
 ## Client Source Code
 
 This is best obtained through
-[this client's Github project page](https://github.com/jddixon/xlreg_o/).
+[this client's Github project page](https://github.com/jddixon/xlreg_ml/).
 
 ## Project Status
 
