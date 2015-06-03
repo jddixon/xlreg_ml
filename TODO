@@ -1,5 +1,8 @@
-dev/ocaml/github.com/jddixon/xlreg_ml
+dev/ocaml/github.com/jddixon/xlreg_ml/TODO
 
+2015-04-22
+    * github project name has been changed, so commits get a warning
+        that the repository has moved
 2015-04-07
     * note piqi.org/doc/ocaml which has a Protocol Buffers 
         implementation for Ocaml
