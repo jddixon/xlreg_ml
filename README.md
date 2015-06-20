@@ -1,6 +1,8 @@
 # xlreg_ml
 
-A OCaml client for the xlReg cluster registry.  **xlreg_ml**
+The OCaml client for the xlReg cluster registry.  
+
+**xlreg_ml**
 makes it easy to create new small clusters some or all of whose members are
 written in the programming language OCaml.  
 xlreg_ml is expected to be used primarily for testing, where
@@ -9,8 +11,9 @@ will be a major advantage.
 
 In such a cluster, members use the **xlReg** public server to register and
 exchange member IP addresses.  When a member finishes booting, it has 
-learned the IP addresses of its peers and the RSA keys used to encrypt 
-traffic between members and traffic between cluster members and clients.
+learned the IP addresses of its peers and the RSA keys used to set up 
+encrypted communications 
+between members of the cluster and between cluster members and clients.
 
 ## The xlReg Service
 
@@ -25,7 +28,7 @@ An **xlReg cluster** is a number of machines
 which cooperate as a set of intercommunicating servers.  Each
 such server has two RSA keys.  One, the **sig** key, is used for creating
 digital signatures.  The other, the **comms** key, is used for encrypting
-communications.  Most often the comms key is used for creating keys for
+communications.  Most often the comms key is used for exchanging keys for
 block ciphers. That is, the comms key is used only for agreeing on the
 much faster block cipher key used during the rest of the communications
 session.
