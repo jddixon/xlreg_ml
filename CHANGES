@@ -1,5 +1,10 @@
 xlreg_ml/CHANGES
 
+v0.0.1
+    2015-08-05
+        * README/index.md updated for xlReg 1.9.9
 v0.0.0
     2015-06-20
-        add this file
+        * add this file
+    2014-03-06
+        * initial code
