@@ -1,0 +1,8 @@
+cd ~/dev/ocaml/xlreg_ml
+
+pySloc $@ -v \
+   bash:countem     \
+   nosharp:Makefile     \
+
+
+

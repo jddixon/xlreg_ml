@@ -1,4 +1,4 @@
-(* regCred.t *)
+(* regCred.ml *)
 
 (* endPoints must be an array *)
 
