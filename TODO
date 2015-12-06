@@ -1,7 +1,12 @@
 dev/ocaml/github.com/jddixon/xlreg_ml/TODO
 
+2015-12-05
+    * need interim showVersion executable
+    * this evolves into xlReg client with -V/--showVersion option
+    * investigate travis complaints re this project
+
 2015-06-03
-    * need to standardize place for version number
+    * need to standardize place for version number                      * DONE
 
 2015-04-22
     * github project name has been changed, so commits get a warning    * FIXED
