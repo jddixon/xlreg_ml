@@ -1,9 +1,13 @@
 dev/ocaml/github.com/jddixon/xlreg_ml/TODO
 
+2015-12-17 (edited from -05)
+    * create xlRegRbClient.ml as described below
+        - interim showVersion executable
+        - evolves into client with -V/--showVersion options
+    * OCaml latest is 4.02.3, 2015-07-27
+
 2015-12-05
-    * need interim showVersion executable
-    * this evolves into xlReg client with -V/--showVersion option
-    * investigate travis complaints re this project
+    * investigate travis complaints re this project                     * FIXED
 
 2015-06-03
     * need to standardize place for version number                      * DONE
@@ -13,4 +17,4 @@ dev/ocaml/github.com/jddixon/xlreg_ml/TODO
         that the repository has moved                                   * FIXED
 2015-04-07
     * note piqi.org/doc/ocaml which has a Protocol Buffers 
-        implementation for Ocaml
+        implementation for OCaml
