@@ -1,5 +1,8 @@
 xlreg_ml/CHANGES
 
+v0.0.5
+    2015-12-22
+        * fix dead link
 v0.0.4
     2015-12-06
         * minor edits to *.md                                       SLOC   76
@@ -17,5 +20,6 @@ v0.0.0
         * add this file
     2014-03-06
         * initial code
+
 
 
