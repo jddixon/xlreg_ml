@@ -1,4 +1,4 @@
 (* version.ml *)
 
-let version      = "0.0.5"
-let version_date = "2015-12-22"
+let version      = "0.0.6"
+let version_date = "2016-03-01"
