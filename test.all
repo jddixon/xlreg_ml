@@ -4,8 +4,8 @@ if [ ! -z "${DEV_BASE// }" ]
 then
   cd $DEV_BASE/ocaml/xlreg_ml
   
+  echo "don	 know how to test OCaml YET"
   
-  pySloc -L ml -X showVersion -v $@
 else
   echo "DEV_BASE is not defined"
 fi
