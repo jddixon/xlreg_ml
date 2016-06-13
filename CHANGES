@@ -1,5 +1,8 @@
 xlreg_ml/CHANGES
 
+v0.0.7
+    2016-06-12
+        * add .dvcz etc, bkp2U, other bash scripts                  SLOC 1113
 v0.0.6
     2016-03-01
         * update LICENSE                                            SLOC  122
@@ -23,6 +26,7 @@ v0.0.0
         * add this file
     2014-03-06
         * initial code
+
 
 
 

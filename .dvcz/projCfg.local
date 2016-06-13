@@ -1,0 +1,11 @@
+dir:local:img
+dir:local:testData
+
+code:local:p.proto
+code:local:testDataTestTemplate
+
+code:ign:.depend
+code:ign:.depend.input
+bin:ign:showVersion
+
+code:local:Makefile

@@ -4,8 +4,13 @@ if [ ! -z "${DEV_BASE// }" ]
 then
   cd $DEV_BASE/ocaml/xlreg_ml
   
+  blListGen \
+    -d ../xlreg_ml \
+    -1L  \
+    -u $DVCZ_UDIR \
+    -X .ssh \
+    $@
   
-  pySloc -L ml -X showVersion -v $@
 else
   echo "DEV_BASE is not defined"
 fi
