@@ -4,7 +4,7 @@ if [ ! -z "${DEV_BASE// }" ]
 then
   cd $DEV_BASE/ocaml/xlreg_ml
   
-  echo "don	 know how to test OCaml YET"
+  echo "don't know how to test OCaml YET"
   
 else
   echo "DEV_BASE is not defined"

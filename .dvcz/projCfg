@@ -2,8 +2,8 @@
 project:xlreg_ml
 package:xlreg_ml
 mainlang:ml
-version:0.0.6
-versionDate:2016-03-01
+version:0.0.7
+versionDate:2016-06-12
 :?dirs?:
 dir:std:ghpDoc
 dir:std:src
@@ -16,6 +16,7 @@ code:std:.dvcz/projCfg
 code:std:.dvcz/projCfg.local
 code:std:.dvcz/builds
 code:std:.dvcz/lastBuildList
+code:std:.dvcz/version
 code:std:.dvczignore
 code:std:.dvczignore.local
 code:std:.gitignore
