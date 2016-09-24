@@ -2,8 +2,8 @@
 project:xlreg_ml
 package:xlreg_ml
 mainlang:ml
-version:0.0.7
-versionDate:2016-06-12
+version:0.0.8
+versionDate:2016-07-13
 :?dirs?:
 dir:std:ghpDoc
 dir:std:src
@@ -25,9 +25,8 @@ code:std:/var/app/sharedev/config/projCfg
 code:local:p.proto
 code:local:testDataTestTemplate
 code:local:Makefile
-txt:std:.copyright
+txt:std:LICENSE-MIT.md
 txt:std:CHANGES
-txt:std:LICENSE.md
 txt:std:README.jdd
 txt:std:README.md
 txt:std:TODO
