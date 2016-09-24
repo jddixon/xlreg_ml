@@ -1,5 +1,8 @@
 xlreg_ml/CHANGES
 
+v0.0.9
+    2016-09-24
+        * standardize licensing                                     SLOC 1658
 v0.0.8
     2016-07-13
         * add ghpDoc/{css,img}                                      SLOC 1639
@@ -29,6 +32,7 @@ v0.0.0
         * add this file
     2014-03-06
         * initial code
+
 
 
 
