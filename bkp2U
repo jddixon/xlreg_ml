@@ -4,7 +4,7 @@ if [ ! -z "${DEV_BASE// }" ]
 then
   cd $DEV_BASE/ocaml/xlreg_ml
   
-  blListGen \
+  bl_listgen \
     -d ../xlreg_ml \
     -1L  \
     -u $DVCZ_UDIR \

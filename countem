@@ -5,7 +5,7 @@ then
   cd $DEV_BASE/ocaml/xlreg_ml
   
   
-  pySloc -L ml   -v $@
+  pySloc -L ml  -X showVersion -v $@
 else
   echo "DEV_BASE is not defined"
 fi
